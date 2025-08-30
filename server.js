@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 const PORT = process.env.PORT || 3000;
-const API_KEY = process.env.API_KEY || "ynastore";
+const API_KEY = process.env.API_KEY || "YNA-API-KEY-SECRET";
 const DB_PATH = path.join(__dirname, "data.json");
 
 if (!fs.existsSync(DB_PATH)) {
